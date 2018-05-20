@@ -1,0 +1,29 @@
+{
+  "name": "stock-alert",
+  "version": "1.0.0",
+  "description": "A Cli for NIFTY price alert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "stock-alert":"cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prdpx7/stock-alert.git"
+  },
+  "keywords": [
+    "nifty",
+    "indian stock exchange"
+  ],
+  "author": "Pradeep Khileri <pradeepchoudhary009@gmail.com> (https://prdpx7.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prdpx7/stock-alert/issues"
+  },
+  "homepage": "https://github.com/prdpx7/stock-alert#readme",
+  "dependencies": {
+    "node-notifier": "^5.2.1"
+  }
+}
