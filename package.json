@@ -1,13 +1,13 @@
 {
   "name": "stock-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Cli for NIFTY price alert",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin":{
-    "stock-alert":"cli.js"
+    "stock-alert":"bin/cli.js"
   },
   "repository": {
     "type": "git",
