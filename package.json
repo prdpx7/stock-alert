@@ -1,6 +1,6 @@
 {
   "name": "stock-alert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Cli for NIFTY price alert",
   "main": "index.js",
   "scripts": {

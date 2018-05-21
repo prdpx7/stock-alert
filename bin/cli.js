@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 'use strict'
 const stockAlert = require('../index.js')
 const notifier = require('node-notifier')
