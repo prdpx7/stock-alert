@@ -18,10 +18,13 @@ $ stock-alert # default will give results on cli
 $ stock-alert help # show this help msg
 ```
 ## Tip
- * You could create a cronjon like this:
+ * You could create a cronjob like this:
+
 ```
-# m     h        dom  mon  dow   commmand
-  */30  10-15   *    *   1-5   stock-alert desktop
+$ which stock-alert # it will give path of executable file
+$ crontab -e # command for opening crontab config
+# m     h        dom    mon      dow        commmand
+  */30  10-15     *      *       1-5    /path/to/stock-alert desktop
 
 # run in every thirty mintute b/w 10am to 3pm from monday to friday
 ```
