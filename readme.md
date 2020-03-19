@@ -66,6 +66,6 @@ $ crontab -e # command for opening crontab config
 # run in every thirty mintute b/w 10am to 3pm from monday to friday
 ```
 ## Demo
-![snap](https://i.imgur.com/UXEN5UC.png)
+![snap](https://i.imgur.com/NrcYfgx.png)
 ## License
 [MIT](https://github.com/prdpx7/stock-alert/blob/master/LICENSE)
