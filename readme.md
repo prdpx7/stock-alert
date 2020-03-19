@@ -55,10 +55,10 @@ stockAlert("NIFTY).then(resp => {
 });
 ```
 ## Tip
- * You could create a cronjob like this:
+ * You can create a cronjob like this:
 
 ```
-$ which stock-alert # it will give path of executable file
+$ which stock-alert # it will give path of the executable file
 $ crontab -e # command for opening crontab config
 # m     h        dom    mon      dow        commmand
   */30  10-15     *      *       1-5    /path/to/stock-alert nifty desktop
