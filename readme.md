@@ -1,5 +1,5 @@
 # stock-alert
-> get NIFTY price on cli or desktop notification
+> A Node API (and a CLI) for Live notification on NIFTY, SENSEX, NASDAQ, DOWJONES Indices.
 
 ## Installation
 ```
