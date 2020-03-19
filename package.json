@@ -1,13 +1,13 @@
 {
   "name": "stock-alert",
-  "version": "1.0.3",
-  "description": "A Cli for NIFTY price alert",
+  "version": "2.0.0",
+  "description": "A Node API for NIFTY, SENSEX, NASDAQ and DOWJONES",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "stock-alert":"bin/cli.js"
+  "bin": {
+    "stock-alert": "bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,13 @@
   },
   "keywords": [
     "nifty",
-    "indian stock exchange"
+    "indian exchange",
+    "indian stock exchange",
+    "US stock exchange",
+    "US market",
+    "sensex",
+    "NASDAQ",
+    "dowjones"
   ],
   "author": "Pradeep Khileri <pradeepchoudhary009@gmail.com> (https://prdpx7.github.io)",
   "license": "MIT",
