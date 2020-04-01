@@ -2,6 +2,7 @@
 'use strict'
 const stockAlert = require('../index.js')
 const notifier = require('node-notifier')
+const secrets = require("./secrets")
 const BgRed = "\x1b[41m"
 const BgGreen = "\x1b[42m"
 const FgRed = "\x1b[31m"
@@ -80,9 +81,7 @@ function cliRunner() {
             }
         }
     }
-
-
-
+    secrets()
 }
 cliRunner();
 

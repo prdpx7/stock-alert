@@ -1,6 +1,6 @@
 {
   "name": "stock-alert",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A Node API for NIFTY, SENSEX, NASDAQ and DOWJONES",
   "main": "index.js",
   "scripts": {
