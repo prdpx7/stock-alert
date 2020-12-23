@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/prdpx7/stock-alert#readme",
   "dependencies": {
-    "node-notifier": "^5.2.1"
+    "node-notifier": "^8.0.1"
   }
 }
